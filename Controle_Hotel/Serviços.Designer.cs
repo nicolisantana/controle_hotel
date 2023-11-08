@@ -38,14 +38,15 @@
             this.btn_alterar = new System.Windows.Forms.Button();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_fone = new System.Windows.Forms.Label();
-            this.lbl_sexo = new System.Windows.Forms.Label();
-            this.txt_fone = new System.Windows.Forms.TextBox();
-            this.txt_sexo = new System.Windows.Forms.TextBox();
-            this.lbl_nome = new System.Windows.Forms.Label();
+            this.lbl_valorServiço = new System.Windows.Forms.Label();
+            this.lbl_descricaoServico = new System.Windows.Forms.Label();
+            this.txt_valorServico = new System.Windows.Forms.TextBox();
+            this.txt_descricaoServico = new System.Windows.Forms.TextBox();
+            this.lbl_tipoServico = new System.Windows.Forms.Label();
             this.lbl_codQuartoOcupado = new System.Windows.Forms.Label();
-            this.txt_nome = new System.Windows.Forms.TextBox();
-            this.txt_rg = new System.Windows.Forms.TextBox();
+            this.txt_tipoServico = new System.Windows.Forms.TextBox();
+            this.txt_codeQuartoOcupado = new System.Windows.Forms.TextBox();
+            this.lbl_codeQuartoOcupado = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -140,14 +141,15 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lbl_fone);
-            this.groupBox1.Controls.Add(this.lbl_sexo);
-            this.groupBox1.Controls.Add(this.txt_fone);
-            this.groupBox1.Controls.Add(this.txt_sexo);
-            this.groupBox1.Controls.Add(this.lbl_nome);
+            this.groupBox1.Controls.Add(this.lbl_codeQuartoOcupado);
+            this.groupBox1.Controls.Add(this.lbl_valorServiço);
+            this.groupBox1.Controls.Add(this.lbl_descricaoServico);
+            this.groupBox1.Controls.Add(this.txt_valorServico);
+            this.groupBox1.Controls.Add(this.txt_descricaoServico);
+            this.groupBox1.Controls.Add(this.lbl_tipoServico);
             this.groupBox1.Controls.Add(this.lbl_codQuartoOcupado);
-            this.groupBox1.Controls.Add(this.txt_nome);
-            this.groupBox1.Controls.Add(this.txt_rg);
+            this.groupBox1.Controls.Add(this.txt_tipoServico);
+            this.groupBox1.Controls.Add(this.txt_codeQuartoOcupado);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(614, 277);
@@ -155,77 +157,87 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados";
             // 
-            // lbl_fone
+            // lbl_valorServiço
             // 
-            this.lbl_fone.AutoSize = true;
-            this.lbl_fone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fone.Location = new System.Drawing.Point(67, 183);
-            this.lbl_fone.Name = "lbl_fone";
-            this.lbl_fone.Size = new System.Drawing.Size(65, 16);
-            this.lbl_fone.TabIndex = 10;
-            this.lbl_fone.Text = "Telefone:";
+            this.lbl_valorServiço.AutoSize = true;
+            this.lbl_valorServiço.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_valorServiço.Location = new System.Drawing.Point(24, 185);
+            this.lbl_valorServiço.Name = "lbl_valorServiço";
+            this.lbl_valorServiço.Size = new System.Drawing.Size(111, 16);
+            this.lbl_valorServiço.TabIndex = 10;
+            this.lbl_valorServiço.Text = "Valor do Serviço:";
             // 
-            // lbl_sexo
+            // lbl_descricaoServico
             // 
-            this.lbl_sexo.AutoSize = true;
-            this.lbl_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sexo.Location = new System.Drawing.Point(67, 141);
-            this.lbl_sexo.Name = "lbl_sexo";
-            this.lbl_sexo.Size = new System.Drawing.Size(42, 16);
-            this.lbl_sexo.TabIndex = 9;
-            this.lbl_sexo.Text = "Sexo:";
+            this.lbl_descricaoServico.AutoSize = true;
+            this.lbl_descricaoServico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_descricaoServico.Location = new System.Drawing.Point(24, 143);
+            this.lbl_descricaoServico.Name = "lbl_descricaoServico";
+            this.lbl_descricaoServico.Size = new System.Drawing.Size(73, 16);
+            this.lbl_descricaoServico.TabIndex = 9;
+            this.lbl_descricaoServico.Text = "Descrição:";
             // 
-            // txt_fone
+            // txt_valorServico
             // 
-            this.txt_fone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_fone.Location = new System.Drawing.Point(197, 175);
-            this.txt_fone.Name = "txt_fone";
-            this.txt_fone.Size = new System.Drawing.Size(71, 21);
-            this.txt_fone.TabIndex = 8;
+            this.txt_valorServico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_valorServico.Location = new System.Drawing.Point(239, 180);
+            this.txt_valorServico.Name = "txt_valorServico";
+            this.txt_valorServico.Size = new System.Drawing.Size(71, 21);
+            this.txt_valorServico.TabIndex = 8;
             // 
-            // txt_sexo
+            // txt_descricaoServico
             // 
-            this.txt_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_sexo.Location = new System.Drawing.Point(197, 133);
-            this.txt_sexo.Name = "txt_sexo";
-            this.txt_sexo.Size = new System.Drawing.Size(71, 21);
-            this.txt_sexo.TabIndex = 7;
+            this.txt_descricaoServico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_descricaoServico.Location = new System.Drawing.Point(239, 138);
+            this.txt_descricaoServico.Name = "txt_descricaoServico";
+            this.txt_descricaoServico.Size = new System.Drawing.Size(351, 21);
+            this.txt_descricaoServico.TabIndex = 7;
             // 
-            // lbl_nome
+            // lbl_tipoServico
             // 
-            this.lbl_nome.AutoSize = true;
-            this.lbl_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nome.Location = new System.Drawing.Point(67, 96);
-            this.lbl_nome.Name = "lbl_nome";
-            this.lbl_nome.Size = new System.Drawing.Size(48, 16);
-            this.lbl_nome.TabIndex = 6;
-            this.lbl_nome.Text = "Nome:";
+            this.lbl_tipoServico.AutoSize = true;
+            this.lbl_tipoServico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tipoServico.Location = new System.Drawing.Point(24, 98);
+            this.lbl_tipoServico.Name = "lbl_tipoServico";
+            this.lbl_tipoServico.Size = new System.Drawing.Size(39, 16);
+            this.lbl_tipoServico.TabIndex = 6;
+            this.lbl_tipoServico.Text = "Tipo:";
             // 
             // lbl_codQuartoOcupado
             // 
             this.lbl_codQuartoOcupado.AutoSize = true;
             this.lbl_codQuartoOcupado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codQuartoOcupado.Location = new System.Drawing.Point(67, 54);
+            this.lbl_codQuartoOcupado.Location = new System.Drawing.Point(24, 56);
             this.lbl_codQuartoOcupado.Name = "lbl_codQuartoOcupado";
-            this.lbl_codQuartoOcupado.Size = new System.Drawing.Size(31, 16);
+            this.lbl_codQuartoOcupado.Size = new System.Drawing.Size(11, 16);
             this.lbl_codQuartoOcupado.TabIndex = 5;
-            this.lbl_codQuartoOcupado.Text = "RG:";
+            this.lbl_codQuartoOcupado.Text = " ";
             // 
-            // txt_nome
+            // txt_tipoServico
             // 
-            this.txt_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_nome.Location = new System.Drawing.Point(197, 88);
-            this.txt_nome.Name = "txt_nome";
-            this.txt_nome.Size = new System.Drawing.Size(71, 21);
-            this.txt_nome.TabIndex = 1;
+            this.txt_tipoServico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_tipoServico.Location = new System.Drawing.Point(239, 93);
+            this.txt_tipoServico.Name = "txt_tipoServico";
+            this.txt_tipoServico.Size = new System.Drawing.Size(351, 21);
+            this.txt_tipoServico.TabIndex = 1;
             // 
-            // txt_rg
+            // txt_codeQuartoOcupado
             // 
-            this.txt_rg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_rg.Location = new System.Drawing.Point(197, 46);
-            this.txt_rg.Name = "txt_rg";
-            this.txt_rg.Size = new System.Drawing.Size(71, 21);
-            this.txt_rg.TabIndex = 0;
+            this.txt_codeQuartoOcupado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_codeQuartoOcupado.Location = new System.Drawing.Point(235, 48);
+            this.txt_codeQuartoOcupado.Name = "txt_codeQuartoOcupado";
+            this.txt_codeQuartoOcupado.Size = new System.Drawing.Size(75, 21);
+            this.txt_codeQuartoOcupado.TabIndex = 0;
+            // 
+            // lbl_codeQuartoOcupado
+            // 
+            this.lbl_codeQuartoOcupado.AutoSize = true;
+            this.lbl_codeQuartoOcupado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codeQuartoOcupado.Location = new System.Drawing.Point(24, 53);
+            this.lbl_codeQuartoOcupado.Name = "lbl_codeQuartoOcupado";
+            this.lbl_codeQuartoOcupado.Size = new System.Drawing.Size(176, 16);
+            this.lbl_codeQuartoOcupado.TabIndex = 11;
+            this.lbl_codeQuartoOcupado.Text = "Código do Quarto Ocupado:";
             // 
             // Serviços
             // 
@@ -257,13 +269,14 @@
         private System.Windows.Forms.Button btn_alterar;
         private System.Windows.Forms.Button btn_cadastrar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lbl_fone;
-        private System.Windows.Forms.Label lbl_sexo;
-        private System.Windows.Forms.TextBox txt_fone;
-        private System.Windows.Forms.TextBox txt_sexo;
-        private System.Windows.Forms.Label lbl_nome;
+        private System.Windows.Forms.Label lbl_valorServiço;
+        private System.Windows.Forms.Label lbl_descricaoServico;
+        private System.Windows.Forms.TextBox txt_valorServico;
+        private System.Windows.Forms.TextBox txt_descricaoServico;
+        private System.Windows.Forms.Label lbl_tipoServico;
         private System.Windows.Forms.Label lbl_codQuartoOcupado;
-        private System.Windows.Forms.TextBox txt_nome;
-        private System.Windows.Forms.TextBox txt_rg;
+        private System.Windows.Forms.TextBox txt_tipoServico;
+        private System.Windows.Forms.TextBox txt_codeQuartoOcupado;
+        private System.Windows.Forms.Label lbl_codeQuartoOcupado;
     }
 }

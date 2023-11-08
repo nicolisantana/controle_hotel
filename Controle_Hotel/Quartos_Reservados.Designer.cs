@@ -38,9 +38,9 @@
             this.btn_alterar = new System.Windows.Forms.Button();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_codReserva = new System.Windows.Forms.Label();
-            this.lbl_codQuarto = new System.Windows.Forms.Label();
-            this.lbl_codCliente = new System.Windows.Forms.Label();
+            this.lbl_codigoReserva = new System.Windows.Forms.Label();
+            this.lbl_codigoQuartoReservado = new System.Windows.Forms.Label();
+            this.lbl_codigoCliente = new System.Windows.Forms.Label();
             this.txt_codReserva = new System.Windows.Forms.TextBox();
             this.txt_codQuarto = new System.Windows.Forms.TextBox();
             this.txt_codCliente = new System.Windows.Forms.TextBox();
@@ -138,9 +138,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lbl_codReserva);
-            this.groupBox1.Controls.Add(this.lbl_codQuarto);
-            this.groupBox1.Controls.Add(this.lbl_codCliente);
+            this.groupBox1.Controls.Add(this.lbl_codigoReserva);
+            this.groupBox1.Controls.Add(this.lbl_codigoQuartoReservado);
+            this.groupBox1.Controls.Add(this.lbl_codigoCliente);
             this.groupBox1.Controls.Add(this.txt_codReserva);
             this.groupBox1.Controls.Add(this.txt_codQuarto);
             this.groupBox1.Controls.Add(this.txt_codCliente);
@@ -151,35 +151,35 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados";
             // 
-            // lbl_codReserva
+            // lbl_codigoReserva
             // 
-            this.lbl_codReserva.AutoSize = true;
-            this.lbl_codReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codReserva.Location = new System.Drawing.Point(39, 156);
-            this.lbl_codReserva.Name = "lbl_codReserva";
-            this.lbl_codReserva.Size = new System.Drawing.Size(129, 16);
-            this.lbl_codReserva.TabIndex = 7;
-            this.lbl_codReserva.Text = "Código da Reserva:";
+            this.lbl_codigoReserva.AutoSize = true;
+            this.lbl_codigoReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigoReserva.Location = new System.Drawing.Point(39, 156);
+            this.lbl_codigoReserva.Name = "lbl_codigoReserva";
+            this.lbl_codigoReserva.Size = new System.Drawing.Size(129, 16);
+            this.lbl_codigoReserva.TabIndex = 7;
+            this.lbl_codigoReserva.Text = "Código da Reserva:";
             // 
-            // lbl_codQuarto
+            // lbl_codigoQuartoReservado
             // 
-            this.lbl_codQuarto.AutoSize = true;
-            this.lbl_codQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codQuarto.Location = new System.Drawing.Point(39, 115);
-            this.lbl_codQuarto.Name = "lbl_codQuarto";
-            this.lbl_codQuarto.Size = new System.Drawing.Size(120, 16);
-            this.lbl_codQuarto.TabIndex = 6;
-            this.lbl_codQuarto.Text = "Código do Quarto :";
+            this.lbl_codigoQuartoReservado.AutoSize = true;
+            this.lbl_codigoQuartoReservado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigoQuartoReservado.Location = new System.Drawing.Point(39, 115);
+            this.lbl_codigoQuartoReservado.Name = "lbl_codigoQuartoReservado";
+            this.lbl_codigoQuartoReservado.Size = new System.Drawing.Size(120, 16);
+            this.lbl_codigoQuartoReservado.TabIndex = 6;
+            this.lbl_codigoQuartoReservado.Text = "Código do Quarto :";
             // 
-            // lbl_codCliente
+            // lbl_codigoCliente
             // 
-            this.lbl_codCliente.AutoSize = true;
-            this.lbl_codCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codCliente.Location = new System.Drawing.Point(39, 73);
-            this.lbl_codCliente.Name = "lbl_codCliente";
-            this.lbl_codCliente.Size = new System.Drawing.Size(118, 16);
-            this.lbl_codCliente.TabIndex = 5;
-            this.lbl_codCliente.Text = "Código do Cliente:";
+            this.lbl_codigoCliente.AutoSize = true;
+            this.lbl_codigoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigoCliente.Location = new System.Drawing.Point(39, 73);
+            this.lbl_codigoCliente.Name = "lbl_codigoCliente";
+            this.lbl_codigoCliente.Size = new System.Drawing.Size(118, 16);
+            this.lbl_codigoCliente.TabIndex = 5;
+            this.lbl_codigoCliente.Text = "Código do Cliente:";
             // 
             // txt_codReserva
             // 
@@ -235,9 +235,9 @@
         private System.Windows.Forms.Button btn_alterar;
         private System.Windows.Forms.Button btn_cadastrar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lbl_codReserva;
-        private System.Windows.Forms.Label lbl_codQuarto;
-        private System.Windows.Forms.Label lbl_codCliente;
+        private System.Windows.Forms.Label lbl_codigoReserva;
+        private System.Windows.Forms.Label lbl_codigoQuartoReservado;
+        private System.Windows.Forms.Label lbl_codigoCliente;
         private System.Windows.Forms.TextBox txt_codReserva;
         private System.Windows.Forms.TextBox txt_codQuarto;
         private System.Windows.Forms.TextBox txt_codCliente;

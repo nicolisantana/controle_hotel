@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_preco = new System.Windows.Forms.Label();
-            this.lbl_descição = new System.Windows.Forms.Label();
-            this.lbl_tipo = new System.Windows.Forms.Label();
+            this.lbl_precoQuarto = new System.Windows.Forms.Label();
+            this.lbl_descricaoQuarto = new System.Windows.Forms.Label();
+            this.lbl_tipoQuarto = new System.Windows.Forms.Label();
             this.lbl_andar = new System.Windows.Forms.Label();
-            this.lbl_numero = new System.Windows.Forms.Label();
-            this.txt_preco = new System.Windows.Forms.TextBox();
-            this.txt_descricao = new System.Windows.Forms.TextBox();
-            this.txt_tipo = new System.Windows.Forms.TextBox();
+            this.lbl_numeroQuarto = new System.Windows.Forms.Label();
+            this.txt_precoQuarto = new System.Windows.Forms.TextBox();
+            this.txt_descricaoQuarto = new System.Windows.Forms.TextBox();
+            this.txt_tipoQuarto = new System.Windows.Forms.TextBox();
             this.txt_andar = new System.Windows.Forms.TextBox();
-            this.txt_numero = new System.Windows.Forms.TextBox();
+            this.txt_numeroQuarto = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btn_voltar = new System.Windows.Forms.Button();
             this.btn_sair = new System.Windows.Forms.Button();
@@ -55,16 +55,16 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lbl_preco);
-            this.groupBox1.Controls.Add(this.lbl_descição);
-            this.groupBox1.Controls.Add(this.lbl_tipo);
+            this.groupBox1.Controls.Add(this.lbl_precoQuarto);
+            this.groupBox1.Controls.Add(this.lbl_descricaoQuarto);
+            this.groupBox1.Controls.Add(this.lbl_tipoQuarto);
             this.groupBox1.Controls.Add(this.lbl_andar);
-            this.groupBox1.Controls.Add(this.lbl_numero);
-            this.groupBox1.Controls.Add(this.txt_preco);
-            this.groupBox1.Controls.Add(this.txt_descricao);
-            this.groupBox1.Controls.Add(this.txt_tipo);
+            this.groupBox1.Controls.Add(this.lbl_numeroQuarto);
+            this.groupBox1.Controls.Add(this.txt_precoQuarto);
+            this.groupBox1.Controls.Add(this.txt_descricaoQuarto);
+            this.groupBox1.Controls.Add(this.txt_tipoQuarto);
             this.groupBox1.Controls.Add(this.txt_andar);
-            this.groupBox1.Controls.Add(this.txt_numero);
+            this.groupBox1.Controls.Add(this.txt_numeroQuarto);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(614, 282);
@@ -72,32 +72,32 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados";
             // 
-            // lbl_preco
+            // lbl_precoQuarto
             // 
-            this.lbl_preco.AutoSize = true;
-            this.lbl_preco.Location = new System.Drawing.Point(28, 213);
-            this.lbl_preco.Name = "lbl_preco";
-            this.lbl_preco.Size = new System.Drawing.Size(38, 13);
-            this.lbl_preco.TabIndex = 9;
-            this.lbl_preco.Text = "Preço:";
+            this.lbl_precoQuarto.AutoSize = true;
+            this.lbl_precoQuarto.Location = new System.Drawing.Point(28, 213);
+            this.lbl_precoQuarto.Name = "lbl_precoQuarto";
+            this.lbl_precoQuarto.Size = new System.Drawing.Size(38, 13);
+            this.lbl_precoQuarto.TabIndex = 9;
+            this.lbl_precoQuarto.Text = "Preço:";
             // 
-            // lbl_descição
+            // lbl_descricaoQuarto
             // 
-            this.lbl_descição.AutoSize = true;
-            this.lbl_descição.Location = new System.Drawing.Point(28, 166);
-            this.lbl_descição.Name = "lbl_descição";
-            this.lbl_descição.Size = new System.Drawing.Size(58, 13);
-            this.lbl_descição.TabIndex = 8;
-            this.lbl_descição.Text = "Descrição:";
+            this.lbl_descricaoQuarto.AutoSize = true;
+            this.lbl_descricaoQuarto.Location = new System.Drawing.Point(28, 166);
+            this.lbl_descricaoQuarto.Name = "lbl_descricaoQuarto";
+            this.lbl_descricaoQuarto.Size = new System.Drawing.Size(58, 13);
+            this.lbl_descricaoQuarto.TabIndex = 8;
+            this.lbl_descricaoQuarto.Text = "Descrição:";
             // 
-            // lbl_tipo
+            // lbl_tipoQuarto
             // 
-            this.lbl_tipo.AutoSize = true;
-            this.lbl_tipo.Location = new System.Drawing.Point(28, 126);
-            this.lbl_tipo.Name = "lbl_tipo";
-            this.lbl_tipo.Size = new System.Drawing.Size(31, 13);
-            this.lbl_tipo.TabIndex = 7;
-            this.lbl_tipo.Text = "Tipo:";
+            this.lbl_tipoQuarto.AutoSize = true;
+            this.lbl_tipoQuarto.Location = new System.Drawing.Point(28, 126);
+            this.lbl_tipoQuarto.Name = "lbl_tipoQuarto";
+            this.lbl_tipoQuarto.Size = new System.Drawing.Size(31, 13);
+            this.lbl_tipoQuarto.TabIndex = 7;
+            this.lbl_tipoQuarto.Text = "Tipo:";
             // 
             // lbl_andar
             // 
@@ -108,38 +108,38 @@
             this.lbl_andar.TabIndex = 6;
             this.lbl_andar.Text = "Andar:";
             // 
-            // lbl_numero
+            // lbl_numeroQuarto
             // 
-            this.lbl_numero.AutoSize = true;
-            this.lbl_numero.Location = new System.Drawing.Point(28, 43);
-            this.lbl_numero.Name = "lbl_numero";
-            this.lbl_numero.Size = new System.Drawing.Size(72, 13);
-            this.lbl_numero.TabIndex = 5;
-            this.lbl_numero.Text = "N° do Quarto:";
+            this.lbl_numeroQuarto.AutoSize = true;
+            this.lbl_numeroQuarto.Location = new System.Drawing.Point(28, 43);
+            this.lbl_numeroQuarto.Name = "lbl_numeroQuarto";
+            this.lbl_numeroQuarto.Size = new System.Drawing.Size(72, 13);
+            this.lbl_numeroQuarto.TabIndex = 5;
+            this.lbl_numeroQuarto.Text = "N° do Quarto:";
             // 
-            // txt_preco
+            // txt_precoQuarto
             // 
-            this.txt_preco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_preco.Location = new System.Drawing.Point(158, 205);
-            this.txt_preco.Name = "txt_preco";
-            this.txt_preco.Size = new System.Drawing.Size(104, 26);
-            this.txt_preco.TabIndex = 4;
+            this.txt_precoQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_precoQuarto.Location = new System.Drawing.Point(158, 205);
+            this.txt_precoQuarto.Name = "txt_precoQuarto";
+            this.txt_precoQuarto.Size = new System.Drawing.Size(104, 26);
+            this.txt_precoQuarto.TabIndex = 4;
             // 
-            // txt_descricao
+            // txt_descricaoQuarto
             // 
-            this.txt_descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_descricao.Location = new System.Drawing.Point(158, 158);
-            this.txt_descricao.Name = "txt_descricao";
-            this.txt_descricao.Size = new System.Drawing.Size(412, 26);
-            this.txt_descricao.TabIndex = 3;
+            this.txt_descricaoQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_descricaoQuarto.Location = new System.Drawing.Point(158, 158);
+            this.txt_descricaoQuarto.Name = "txt_descricaoQuarto";
+            this.txt_descricaoQuarto.Size = new System.Drawing.Size(412, 26);
+            this.txt_descricaoQuarto.TabIndex = 3;
             // 
-            // txt_tipo
+            // txt_tipoQuarto
             // 
-            this.txt_tipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_tipo.Location = new System.Drawing.Point(158, 118);
-            this.txt_tipo.Name = "txt_tipo";
-            this.txt_tipo.Size = new System.Drawing.Size(172, 26);
-            this.txt_tipo.TabIndex = 2;
+            this.txt_tipoQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_tipoQuarto.Location = new System.Drawing.Point(158, 118);
+            this.txt_tipoQuarto.Name = "txt_tipoQuarto";
+            this.txt_tipoQuarto.Size = new System.Drawing.Size(172, 26);
+            this.txt_tipoQuarto.TabIndex = 2;
             // 
             // txt_andar
             // 
@@ -149,13 +149,13 @@
             this.txt_andar.Size = new System.Drawing.Size(71, 26);
             this.txt_andar.TabIndex = 1;
             // 
-            // txt_numero
+            // txt_numeroQuarto
             // 
-            this.txt_numero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_numero.Location = new System.Drawing.Point(158, 35);
-            this.txt_numero.Name = "txt_numero";
-            this.txt_numero.Size = new System.Drawing.Size(71, 26);
-            this.txt_numero.TabIndex = 0;
+            this.txt_numeroQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_numeroQuarto.Location = new System.Drawing.Point(158, 35);
+            this.txt_numeroQuarto.Name = "txt_numeroQuarto";
+            this.txt_numeroQuarto.Size = new System.Drawing.Size(71, 26);
+            this.txt_numeroQuarto.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -266,16 +266,16 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lbl_preco;
-        private System.Windows.Forms.Label lbl_descição;
-        private System.Windows.Forms.Label lbl_tipo;
+        private System.Windows.Forms.Label lbl_precoQuarto;
+        private System.Windows.Forms.Label lbl_descricaoQuarto;
+        private System.Windows.Forms.Label lbl_tipoQuarto;
         private System.Windows.Forms.Label lbl_andar;
-        private System.Windows.Forms.Label lbl_numero;
-        private System.Windows.Forms.TextBox txt_preco;
-        private System.Windows.Forms.TextBox txt_descricao;
-        private System.Windows.Forms.TextBox txt_tipo;
+        private System.Windows.Forms.Label lbl_numeroQuarto;
+        private System.Windows.Forms.TextBox txt_precoQuarto;
+        private System.Windows.Forms.TextBox txt_descricaoQuarto;
+        private System.Windows.Forms.TextBox txt_tipoQuarto;
         private System.Windows.Forms.TextBox txt_andar;
-        private System.Windows.Forms.TextBox txt_numero;
+        private System.Windows.Forms.TextBox txt_numeroQuarto;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_voltar;
         private System.Windows.Forms.Button btn_sair;

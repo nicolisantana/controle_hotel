@@ -38,18 +38,18 @@
             this.btn_alterar = new System.Windows.Forms.Button();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_CodQuarto = new System.Windows.Forms.Label();
-            this.lbl_codCliente = new System.Windows.Forms.Label();
-            this.txt_codQuarto = new System.Windows.Forms.TextBox();
-            this.txt_codCliente = new System.Windows.Forms.TextBox();
-            this.lbl_dataSaida = new System.Windows.Forms.Label();
-            this.lbl_dataEntrada = new System.Windows.Forms.Label();
-            this.txt_dataSaida = new System.Windows.Forms.TextBox();
-            this.txt_dataEntrada = new System.Windows.Forms.TextBox();
             this.lbl_horaSaida = new System.Windows.Forms.Label();
             this.lbl_horaEntrada = new System.Windows.Forms.Label();
             this.txt_horaSaida = new System.Windows.Forms.TextBox();
             this.txt_horaEntrada = new System.Windows.Forms.TextBox();
+            this.lbl_dataSaida = new System.Windows.Forms.Label();
+            this.lbl_dataEntrada = new System.Windows.Forms.Label();
+            this.txt_dataSaida = new System.Windows.Forms.TextBox();
+            this.txt_dataEntrada = new System.Windows.Forms.TextBox();
+            this.lbl_codigoQuartoOcupado = new System.Windows.Forms.Label();
+            this.lbl_codigoCliente = new System.Windows.Forms.Label();
+            this.txt_codQuarto = new System.Windows.Forms.TextBox();
+            this.txt_codCliente = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -152,8 +152,8 @@
             this.groupBox1.Controls.Add(this.lbl_dataEntrada);
             this.groupBox1.Controls.Add(this.txt_dataSaida);
             this.groupBox1.Controls.Add(this.txt_dataEntrada);
-            this.groupBox1.Controls.Add(this.lbl_CodQuarto);
-            this.groupBox1.Controls.Add(this.lbl_codCliente);
+            this.groupBox1.Controls.Add(this.lbl_codigoQuartoOcupado);
+            this.groupBox1.Controls.Add(this.lbl_codigoCliente);
             this.groupBox1.Controls.Add(this.txt_codQuarto);
             this.groupBox1.Controls.Add(this.txt_codCliente);
             this.groupBox1.Location = new System.Drawing.Point(8, 19);
@@ -163,41 +163,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados";
             // 
-            // lbl_CodQuarto
+            // lbl_horaSaida
             // 
-            this.lbl_CodQuarto.AutoSize = true;
-            this.lbl_CodQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_CodQuarto.Location = new System.Drawing.Point(58, 93);
-            this.lbl_CodQuarto.Name = "lbl_CodQuarto";
-            this.lbl_CodQuarto.Size = new System.Drawing.Size(120, 16);
-            this.lbl_CodQuarto.TabIndex = 6;
-            this.lbl_CodQuarto.Text = "Código do Quarto :";
+            this.lbl_horaSaida.AutoSize = true;
+            this.lbl_horaSaida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_horaSaida.Location = new System.Drawing.Point(199, 220);
+            this.lbl_horaSaida.Name = "lbl_horaSaida";
+            this.lbl_horaSaida.Size = new System.Drawing.Size(97, 16);
+            this.lbl_horaSaida.TabIndex = 14;
+            this.lbl_horaSaida.Text = "Hora da saída:";
             // 
-            // lbl_codCliente
+            // lbl_horaEntrada
             // 
-            this.lbl_codCliente.AutoSize = true;
-            this.lbl_codCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codCliente.Location = new System.Drawing.Point(58, 51);
-            this.lbl_codCliente.Name = "lbl_codCliente";
-            this.lbl_codCliente.Size = new System.Drawing.Size(118, 16);
-            this.lbl_codCliente.TabIndex = 5;
-            this.lbl_codCliente.Text = "Código do Cliente:";
+            this.lbl_horaEntrada.AutoSize = true;
+            this.lbl_horaEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_horaEntrada.Location = new System.Drawing.Point(199, 178);
+            this.lbl_horaEntrada.Name = "lbl_horaEntrada";
+            this.lbl_horaEntrada.Size = new System.Drawing.Size(109, 16);
+            this.lbl_horaEntrada.TabIndex = 13;
+            this.lbl_horaEntrada.Text = "Hora da entrada:";
             // 
-            // txt_codQuarto
+            // txt_horaSaida
             // 
-            this.txt_codQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_codQuarto.Location = new System.Drawing.Point(188, 85);
-            this.txt_codQuarto.Name = "txt_codQuarto";
-            this.txt_codQuarto.Size = new System.Drawing.Size(71, 21);
-            this.txt_codQuarto.TabIndex = 1;
+            this.txt_horaSaida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_horaSaida.Location = new System.Drawing.Point(329, 212);
+            this.txt_horaSaida.Name = "txt_horaSaida";
+            this.txt_horaSaida.Size = new System.Drawing.Size(71, 21);
+            this.txt_horaSaida.TabIndex = 12;
             // 
-            // txt_codCliente
+            // txt_horaEntrada
             // 
-            this.txt_codCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_codCliente.Location = new System.Drawing.Point(188, 43);
-            this.txt_codCliente.Name = "txt_codCliente";
-            this.txt_codCliente.Size = new System.Drawing.Size(71, 21);
-            this.txt_codCliente.TabIndex = 0;
+            this.txt_horaEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_horaEntrada.Location = new System.Drawing.Point(329, 170);
+            this.txt_horaEntrada.Name = "txt_horaEntrada";
+            this.txt_horaEntrada.Size = new System.Drawing.Size(71, 21);
+            this.txt_horaEntrada.TabIndex = 11;
             // 
             // lbl_dataSaida
             // 
@@ -239,41 +239,41 @@
             this.txt_dataEntrada.TabIndex = 7;
             this.txt_dataEntrada.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // lbl_horaSaida
+            // lbl_codigoQuartoOcupado
             // 
-            this.lbl_horaSaida.AutoSize = true;
-            this.lbl_horaSaida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_horaSaida.Location = new System.Drawing.Point(199, 220);
-            this.lbl_horaSaida.Name = "lbl_horaSaida";
-            this.lbl_horaSaida.Size = new System.Drawing.Size(97, 16);
-            this.lbl_horaSaida.TabIndex = 14;
-            this.lbl_horaSaida.Text = "Hora da saída:";
+            this.lbl_codigoQuartoOcupado.AutoSize = true;
+            this.lbl_codigoQuartoOcupado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigoQuartoOcupado.Location = new System.Drawing.Point(58, 93);
+            this.lbl_codigoQuartoOcupado.Name = "lbl_codigoQuartoOcupado";
+            this.lbl_codigoQuartoOcupado.Size = new System.Drawing.Size(120, 16);
+            this.lbl_codigoQuartoOcupado.TabIndex = 6;
+            this.lbl_codigoQuartoOcupado.Text = "Código do Quarto :";
             // 
-            // lbl_horaEntrada
+            // lbl_codigoCliente
             // 
-            this.lbl_horaEntrada.AutoSize = true;
-            this.lbl_horaEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_horaEntrada.Location = new System.Drawing.Point(199, 178);
-            this.lbl_horaEntrada.Name = "lbl_horaEntrada";
-            this.lbl_horaEntrada.Size = new System.Drawing.Size(109, 16);
-            this.lbl_horaEntrada.TabIndex = 13;
-            this.lbl_horaEntrada.Text = "Hora da entrada:";
+            this.lbl_codigoCliente.AutoSize = true;
+            this.lbl_codigoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigoCliente.Location = new System.Drawing.Point(58, 51);
+            this.lbl_codigoCliente.Name = "lbl_codigoCliente";
+            this.lbl_codigoCliente.Size = new System.Drawing.Size(118, 16);
+            this.lbl_codigoCliente.TabIndex = 5;
+            this.lbl_codigoCliente.Text = "Código do Cliente:";
             // 
-            // txt_horaSaida
+            // txt_codQuarto
             // 
-            this.txt_horaSaida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_horaSaida.Location = new System.Drawing.Point(329, 212);
-            this.txt_horaSaida.Name = "txt_horaSaida";
-            this.txt_horaSaida.Size = new System.Drawing.Size(71, 21);
-            this.txt_horaSaida.TabIndex = 12;
+            this.txt_codQuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_codQuarto.Location = new System.Drawing.Point(188, 85);
+            this.txt_codQuarto.Name = "txt_codQuarto";
+            this.txt_codQuarto.Size = new System.Drawing.Size(71, 21);
+            this.txt_codQuarto.TabIndex = 1;
             // 
-            // txt_horaEntrada
+            // txt_codCliente
             // 
-            this.txt_horaEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_horaEntrada.Location = new System.Drawing.Point(329, 170);
-            this.txt_horaEntrada.Name = "txt_horaEntrada";
-            this.txt_horaEntrada.Size = new System.Drawing.Size(71, 21);
-            this.txt_horaEntrada.TabIndex = 11;
+            this.txt_codCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_codCliente.Location = new System.Drawing.Point(188, 43);
+            this.txt_codCliente.Name = "txt_codCliente";
+            this.txt_codCliente.Size = new System.Drawing.Size(71, 21);
+            this.txt_codCliente.TabIndex = 0;
             // 
             // Quartos_Ocupados
             // 
@@ -309,8 +309,8 @@
         private System.Windows.Forms.Label lbl_dataEntrada;
         private System.Windows.Forms.TextBox txt_dataSaida;
         private System.Windows.Forms.TextBox txt_dataEntrada;
-        private System.Windows.Forms.Label lbl_CodQuarto;
-        private System.Windows.Forms.Label lbl_codCliente;
+        private System.Windows.Forms.Label lbl_codigoQuartoOcupado;
+        private System.Windows.Forms.Label lbl_codigoCliente;
         private System.Windows.Forms.TextBox txt_codQuarto;
         private System.Windows.Forms.TextBox txt_codCliente;
         private System.Windows.Forms.Label lbl_horaSaida;

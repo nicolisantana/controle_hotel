@@ -38,10 +38,10 @@
             this.btn_alterar = new System.Windows.Forms.Button();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_sexo = new System.Windows.Forms.Label();
+            this.lbl_quantidadeDiasReserva = new System.Windows.Forms.Label();
             this.txt_sexo = new System.Windows.Forms.TextBox();
             this.lbl_Data = new System.Windows.Forms.Label();
-            this.lbl_codCliente = new System.Windows.Forms.Label();
+            this.lbl_codigoCliente = new System.Windows.Forms.Label();
             this.txt_data = new System.Windows.Forms.TextBox();
             this.txt_codCliente = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -138,10 +138,10 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lbl_sexo);
+            this.groupBox1.Controls.Add(this.lbl_quantidadeDiasReserva);
             this.groupBox1.Controls.Add(this.txt_sexo);
             this.groupBox1.Controls.Add(this.lbl_Data);
-            this.groupBox1.Controls.Add(this.lbl_codCliente);
+            this.groupBox1.Controls.Add(this.lbl_codigoCliente);
             this.groupBox1.Controls.Add(this.txt_data);
             this.groupBox1.Controls.Add(this.txt_codCliente);
             this.groupBox1.Location = new System.Drawing.Point(9, 3);
@@ -151,22 +151,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados";
             // 
-            // lbl_sexo
+            // lbl_quantidadeDiasReserva
             // 
-            this.lbl_sexo.AutoSize = true;
-            this.lbl_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sexo.Location = new System.Drawing.Point(67, 141);
-            this.lbl_sexo.Name = "lbl_sexo";
-            this.lbl_sexo.Size = new System.Drawing.Size(129, 16);
-            this.lbl_sexo.TabIndex = 9;
-            this.lbl_sexo.Text = "Quantidade de dias:";
+            this.lbl_quantidadeDiasReserva.AutoSize = true;
+            this.lbl_quantidadeDiasReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_quantidadeDiasReserva.Location = new System.Drawing.Point(67, 141);
+            this.lbl_quantidadeDiasReserva.Name = "lbl_quantidadeDiasReserva";
+            this.lbl_quantidadeDiasReserva.Size = new System.Drawing.Size(129, 16);
+            this.lbl_quantidadeDiasReserva.TabIndex = 9;
+            this.lbl_quantidadeDiasReserva.Text = "Quantidade de dias:";
             // 
             // txt_sexo
             // 
             this.txt_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_sexo.Location = new System.Drawing.Point(211, 136);
             this.txt_sexo.Name = "txt_sexo";
-            this.txt_sexo.Size = new System.Drawing.Size(71, 21);
+            this.txt_sexo.Size = new System.Drawing.Size(83, 21);
             this.txt_sexo.TabIndex = 7;
             // 
             // lbl_Data
@@ -179,22 +179,22 @@
             this.lbl_Data.TabIndex = 6;
             this.lbl_Data.Text = "Data:";
             // 
-            // lbl_codCliente
+            // lbl_codigoCliente
             // 
-            this.lbl_codCliente.AutoSize = true;
-            this.lbl_codCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codCliente.Location = new System.Drawing.Point(67, 54);
-            this.lbl_codCliente.Name = "lbl_codCliente";
-            this.lbl_codCliente.Size = new System.Drawing.Size(118, 16);
-            this.lbl_codCliente.TabIndex = 5;
-            this.lbl_codCliente.Text = "Código do Cliente:";
+            this.lbl_codigoCliente.AutoSize = true;
+            this.lbl_codigoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigoCliente.Location = new System.Drawing.Point(67, 54);
+            this.lbl_codigoCliente.Name = "lbl_codigoCliente";
+            this.lbl_codigoCliente.Size = new System.Drawing.Size(118, 16);
+            this.lbl_codigoCliente.TabIndex = 5;
+            this.lbl_codigoCliente.Text = "Código do Cliente:";
             // 
             // txt_data
             // 
             this.txt_data.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_data.Location = new System.Drawing.Point(211, 93);
             this.txt_data.Name = "txt_data";
-            this.txt_data.Size = new System.Drawing.Size(71, 21);
+            this.txt_data.Size = new System.Drawing.Size(83, 21);
             this.txt_data.TabIndex = 1;
             // 
             // txt_codCliente
@@ -202,7 +202,7 @@
             this.txt_codCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_codCliente.Location = new System.Drawing.Point(211, 51);
             this.txt_codCliente.Name = "txt_codCliente";
-            this.txt_codCliente.Size = new System.Drawing.Size(71, 21);
+            this.txt_codCliente.Size = new System.Drawing.Size(83, 21);
             this.txt_codCliente.TabIndex = 0;
             // 
             // Reserva
@@ -235,10 +235,10 @@
         private System.Windows.Forms.Button btn_alterar;
         private System.Windows.Forms.Button btn_cadastrar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lbl_sexo;
+        private System.Windows.Forms.Label lbl_quantidadeDiasReserva;
         private System.Windows.Forms.TextBox txt_sexo;
         private System.Windows.Forms.Label lbl_Data;
-        private System.Windows.Forms.Label lbl_codCliente;
+        private System.Windows.Forms.Label lbl_codigoCliente;
         private System.Windows.Forms.TextBox txt_data;
         private System.Windows.Forms.TextBox txt_codCliente;
     }
